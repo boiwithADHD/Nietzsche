@@ -10,7 +10,7 @@ header{
     padding-bottom: 10px;
     font-family: Helvetica, Arial, sans-serif;
 }
-h1,h2{
+h1,h2,footer{
     font-family: 'Inconsolata', monospace;
 }
 header h1{
@@ -18,7 +18,7 @@ header h1{
     color: azure;
 }
 header img{
-    height: 300px;
+    width: 25%;
     border-radius: 500px;
     border: 10px solid azure;
 }
@@ -64,4 +64,7 @@ p.caption{
     font-style: italic;
     margin-top: 10px;
     text-align: center;
+}
+main{
+    padding: 20px;
 }
